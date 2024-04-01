@@ -1,0 +1,61 @@
+.prod-img-container {
+    max-width: 96%;
+    height: 142px;
+    overflow: hidden; /* Hide any parts of the image that exceed the container */
+}
+
+.col{
+    padding: 0px;
+}
+
+.prod-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop the image to cover the entire container */
+    object-position: center; /* Show the center portion of the image */
+}
+
+.btn-secondary{
+    background-color: transparent;
+
+    color: #CCCCCC;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #EFB928;
+    background-color: #161103;
+    border-color: #CCCCCC;
+}
+
+
+.top-picks{
+    max-width: 100%;
+    margin: 48px;
+    text-align: center;
+    height: fit-content;
+    color: #161103;
+}
+
+.top-picks .flex-row .product{
+    width: 260px;
+    height: 394px;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+    margin-left: 8px;
+}
+
+.top-picks .flex-row .product img{
+    width: 100% !important;
+}
+
+.top-picks .flex-row .product .prod_desc{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 8px;
+    text-align: left;
+    text-shadow: #161103;
+    background: linear-gradient(0deg, #161103, #16110300);
+}

@@ -1,0 +1,257 @@
+*{
+    font-family: 'Inter';
+}
+
+.header{
+    background-image: url(../images/headerbg.png);
+    background-size: cover;
+    height: 673px;
+    position: relative;
+}
+
+.nav-link{
+    color: #FFFDFD;
+    font-size: 16px;
+}
+
+.nav-link:hover, .nav-link-curr{
+    color: #EFB928;
+    text-decoration: underline;
+}
+
+.nav-logo{
+    font-size: 36px;
+    font-family: 'Oswald';
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.login_btn{
+    width: 114px;
+    height: 36px;
+    background-color: #EFB928;
+    color: #FFFDFD;
+    border-radius: 0px;
+    font-size: 16px;
+}
+
+h2{
+    font-size: 61px;
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+
+h3{
+    font-size: 36px;
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+
+h4{
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.p1{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.p2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn:hover{
+    border: 1px solid #FFFDFD;
+    background-color: none;
+}
+
+.head_btn{
+    margin-top: 10px;
+    width: 181px;
+    height: 48px;
+    background-color: #EFB928;
+    color: #FFFDFD;
+    border-radius: 0px;
+    font-size: 21px;
+    font-family: 'Oswald';
+}
+
+.head_text_grp{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 432px;
+    margin: 40px;
+}
+
+.quick-shop .row .col{
+    background-size: cover;
+    height: 178px;
+}
+
+.quick-shop .col{
+    position: relative;
+}
+
+.quick-shop .btn{
+    color: #FFFDFD;
+    background-color: #EFB928;
+    height: 36px;
+    width: 149px;
+    border-radius: 0px;
+    position: absolute;
+    right: 5%;
+    bottom: 40%;
+    font-family: 'Oswald';
+    font-size: 16px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 100%;
+}
+
+.new-arrivals{
+    text-align: center;
+    height: fit-content;
+    margin-top: 50px;
+    color: #161103;
+}
+
+.new-arrivals center .row .col h4{
+    font-family: 'Oswald';
+}
+
+.new-arrivals .buy_btn{
+    width: 114px;
+    height: 36px;
+    background-color: #EFB928;
+    color: #FFFDFD;
+    font-family: 'Oswald';
+    font-size: 16px;
+    border: none;
+    margin-right: 8px;
+}
+
+.new-arrivals .cart_btn{
+    width: 36px;
+    height: 36px;
+    background-color: #CCCCCC;
+    color: #161103;
+    border: none;
+    padding: 0px;
+}
+
+.top-picks{
+    text-align: center;
+    height: fit-content;
+    margin-top: 50px;
+    color: #161103;
+}
+
+.top-picks .flex-row .product{
+    width: 260px;
+    height: 394px;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+    margin-left: 8px;
+}
+
+.top-picks .flex-row .product img{
+    width: 100% !important;
+}
+
+.top-picks .flex-row .product .prod_desc{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 8px;
+    text-align: left;
+    text-shadow: #161103;
+    background: linear-gradient(0deg, #161103, #16110300);
+}
+
+.highlight{
+    background-image: url(../images/bg.png);
+    height: 577px;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.highlight span{
+    font-size: 61px;
+    font-family: 'Oswald';
+}
+
+.highlight p{
+    margin-bottom: -20px;
+}
+
+.faqs{
+    height: fit-content;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.faqs h3{
+    text-align: center;
+    color: #EFB928;
+}
+
+.faqs .p2{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.accordion, .accordion-item, 
+.accordion_item, .accordion-button, 
+.accordion-button:not(.collapsed),
+.accordion-button:focus, .accordion-button:active{
+    background-color: transparent;
+    box-shadow: none;
+    color: #161103;
+}
+
+.footer{
+    height: fit-content;
+    background-color: #161103;
+    padding: 16px;
+    color: #FFFDFD;
+    margin-top: 50px;
+}
+
+.footer hr{
+    border: 1px solid #FFFDFD;
+    color: #FFFDFD;
+    opacity: 1;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.footer input{
+    border: 1px solid #FFFDFD;
+    background-color: transparent;
+    height: 32px;
+    padding-left: 5px;
+}
+
+.footer h4{
+    font-family: 'Oswald';
+    color: #EFB928;
+}
+
+.footer button{
+    height: 32px;
+    background-color: #EFB928;
+    font-family: 'Oswald';
+    font-size: 16px;
+    color: #FFFDFD;
+    border: none;
+}

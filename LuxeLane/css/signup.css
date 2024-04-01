@@ -1,0 +1,64 @@
+body{
+    background-image: url(../images/signupbg.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main-container{
+    width: 61%;
+    background-color: #FFFDFD;
+    text-align: center;
+    padding: 2%;
+    margin: 5%;
+}
+
+.main-container .fields{
+    text-align: left;
+}
+
+label{
+    margin-bottom: 0px;
+    font-family: 'Oswald';
+    font-size: 16px;
+    color: #161103;
+}
+
+.gender-icon{
+    width: 29px;
+    height: 29px;
+    border-radius: 100px;
+    background-color: #CCCCCC;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.alternatives{
+    height: 48px;
+    width: 48px; 
+    background-color: #EFB928;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a{
+    color: #EFB928;
+    text-decoration: underline;
+}
+
+.login_btn{
+    width: 100%;
+    height: 48px;
+    background-color: #EFB928;
+    color: #FFFDFD;
+    border-radius: 0px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Oswald';
+    font-size: 21px;
+}

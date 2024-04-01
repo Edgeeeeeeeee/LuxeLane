@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    height: 40%;
+    background-color: grey;
+}
+
+
+.accordion h2{
+    font-family: 'Inter';
+}
+
+.accordion, .accordion-item, 
+.accordion_item, .accordion-button, 
+.accordion-button:not(.collapsed),
+.accordion-button:focus, .accordion-button:active{
+    background-color: transparent;
+    box-shadow: none;
+    color: #161103;
+    border: none;
+}
+
+.form-check-input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button{
+    padding: 16px 0px 16px;
+    border-bottom: 1px solid #161103 !important;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: none;
+}
+
+.form-check-input:checked {
+    background-color: #EFB928;
+    border-color: #161103;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+}
